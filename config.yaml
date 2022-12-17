@@ -1,0 +1,30 @@
+baseURL: https://aptxx.com/
+languageCode: en-us
+title: Aptxx
+theme: PaperMod
+
+googleAnalytics: G-PREBKG90SP
+
+params:
+  env: production
+  title: Aptxx
+  description: Kehan's blog
+  keywords: [Aptxx, Blog, Technical, Server]
+  author: Kehan Pan
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: true
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/aptxx"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
